@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Showcase {
+    background-color: #B8FFF9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Showcase .profile {
+    width: 250px;
+}
+.Showcase .name {
+    font-size: 3rem;
+    font-family: 'Montserrat Alternates', sans-serif, monospace;
+}
+
+.Showcase .title {
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+.Showcase span {
+    color: #009C2C;
+}
+.Showcase .cloud-left {
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.Showcase .cloud-right {
+    width: 300px;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    transform: rotateX(180deg);
+    transform: rotatey(180deg);
+}
+.Showcase .forest {
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+    right: 50px;
+}
+.Showcase .city {
+    position: absolute;
+    width: 500px;
+    bottom: 0;
+    left: 50px;
+}
